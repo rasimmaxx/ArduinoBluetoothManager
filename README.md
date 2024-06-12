@@ -29,7 +29,7 @@ Bluetooth-enabled Windows PC
 Software Requirements
 Arduino IDE
 HC-05 Bluetooth Serial Library
-Windows 7 or higher
+Windows 10 or higher
 Setup Instructions
 Arduino Side
 Connect the HC-06/HC-05 Bluetooth Module:
@@ -49,21 +49,15 @@ Upload the sketch to the Arduino.
 Windows Application
 Download and Install:
 
-Download the latest release of the Windows app from the Releases page.
-Run the installer and follow the on-screen instructions.
-Pair the Bluetooth Module:
+Usage:
 
-Open Bluetooth settings on your PC.
-Pair with the HC-06/HC-05 module (default pin is usually 1234 or 0000).
-Configure the App:
+Download the project and bin files are given in the same directory or Debug again using Visual Studio.
+Connect your arduino project to the source
+Open the ArduinoBluetoothManager.exe in bin
+Wait for discovering the HC-05, 06 devices by the application
+Choose appropriate device from list
+Pair the Bluetooth Module by pressing the Connection button:
 
-Open the Arduino 8 Lamp Manager app.
-Select the COM port associated with the Bluetooth module.
-Connect and start controlling your LEDs!
-Usage
-Launching the App:
-
-Open the Arduino 8 Lamp Manager from the Start menu or desktop shortcut.
 Controlling LEDs:
 
 Use the app's interface to toggle each LED on or off.
@@ -76,10 +70,3 @@ Create your Feature Branch (git checkout -b feature/AmazingFeature)
 Commit your Changes (git commit -m 'Add some AmazingFeature')
 Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements:
-Arduino for the microcontroller platform
-HC-05 Bluetooth Module documentation
-Your Name for development and maintenance
